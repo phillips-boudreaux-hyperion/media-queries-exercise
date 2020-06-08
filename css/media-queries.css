@@ -66,10 +66,71 @@ footer {
 }
 
 
-@media screen and (max-width: 339px) {
-    .header-img {
-        display: none;
-    }
+/*Media Query Section*/
+@media screen and (min-width: 882px) {
+	nav>ul:last-child {
+		display: flex;
+	}
+	nav {
+		justify-content: space-between;
+	}
+}
 
-    .
+@media screen and (min-width: 1062px) {
+	.smallest-title {
+		display: block;
+	}
+	main h2 {
+		font-size: 2.5em;
+	}
+	#to-what {
+		display: inline;
+	}
+	main h2:after {
+		content: ""
+	}
+}
+
+@media screen and (min-width: 1186px) {
+	.small-title {
+		display: block;
+	}
+	.smallest-title {
+		display: none;
+	}
+	main h2 {
+		font-size: 3em;
+	}
+	hr {
+		display: none;
+	}
+	div {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	#side-story {
+		width: 35%;
+		order: 1;
+	}
+	#main-story {
+		width: 65%;
+		order: 2;
+	}
+	article {
+		height: 128px;
+		margin: 0;
+	}
+
+}
+
+@media screen and (min-width: 1368px) {
+	.small-title {
+		display: none;
+	}
+	.big-title {
+		display: block;
+	}
+	main h2 {
+		font-size: 4em;
+	}
 }
