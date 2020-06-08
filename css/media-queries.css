@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.alert-info hidden-on-desktop {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 339px) {
+    .alert-info hidden-on-desktop {
+        display: none;
+    }
+}
