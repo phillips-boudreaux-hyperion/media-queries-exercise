@@ -26,10 +26,17 @@ h1 {
     justify-content: center;
 }
 
-img {
+/* img {
   width: 100%;
   height: auto;
   max-width: 97vw;
+} */
+
+img {
+    width: auto;
+    margin: 0 1em;
+    padding: 0 1em;
+    max-width: 100%;
 }
 
 .nav-links {
